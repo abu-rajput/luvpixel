@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculate </title>
+    <meta name="description" content="This tool calculates the age or time span between two dates, presenting the result in a detailed breakdown: years, months, days, hours, minutes, and seconds."/>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/jpe" href="img/heartpixel.png">
+    <link rel="stylesheet" href="AgeCalculated.css">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6D741DNW3Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6D741DNW3Q');
+</script>
+</head>
+<body>
+    <section id="temp">
+        <header>
+            <div class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+            <div class="nav-1">
+                <ul>
+                    <!-- <a href="#"><li>home</li></a> -->
+                    <!-- <a href="#"><li>about</li></a> -->
+                </ul>
+                <ul>
+                <a href="https://www.instagram.com/luvpixell/"><button>Instagram</button></a>
+
+            </div>
+            <div id="menu">
+                <i class='bx bx-menu' onclick="showMenu()"></i>
+                
+
+            </div>
+        </header>
+        <div class="menuitem">
+            <div class="menulogo"><img src="img/logo.png" alt="">
+                <span id="close" onclick="showMenu()">x</span>
+            </div>
+            <br>
+            <ul>
+                <a href="Age Calculate.html"><li>AgeCalculate</li></a>
+                <a href="index.html"><li>Love Calculation</li></a>
+                <a href="printMultipleLine.html"><li>Print Same Multiple Line</li></a>
+                <a href="ReverseName.html"><li>Reverse Your name</li></a>
+                <a href="Relationship.html"><li>Relationship Days Calculation</a></li>
+                <a href=""><li>Marriage days Calculate</li></a>
+            </ul>
+        <!-- <i class='bx bx-x'></i> -->
+
+        </div>
+        <div class="text">
+            <h1>Calculate Your Days</h1>
+            <p>This Tool calculates the age or time interval between two dates and displays it in detailed units: years, months, weeks, days, hours, minutes, and seconds.</p>
+            <span>---&nbsp; Calculate Other Data &nbsp; ---</span>
+            <p id="border"><a href="love.html" >Love Calculate</a> &nbsp; | &nbsp; <a href="index.html">Age Calculate</a> &nbsp; | &nbsp; <a href="ReverseName.html">ReverseName</a> |&nbsp; <a href="#">Marriage time</a> &nbsp;|&nbsp; <a href="Relationship.html">Relationship days</a>&nbsp; </p>
+        </div>
+    </section>
+    
+    <main class="userinput">
+        <div class="img">
+            <div class="left">
+            <img src="./img/young-woman-working-at-desk.png" alt="">
+
+            </div>
+        <div id="form">
+            <h1>Age Calculate</h1><br>
+            <label for="imag">Upload Image</label>
+            <input type="file" accept="image/jpeg, image/jpe, image/png" id="imag">
+            <label for="name">Enter Your Name <span>*</span></label>
+            <input type="text" id="name" required>
+            <label for="EnterDate" >Enter Your DOB <span>*</span></label>
+            <input type="date" id="EnterDate" required><br>
+            <a href="#display"><button id="Convert" >Calculate</button></a>
+        </div>
+    </div>
+
+    </main>
+    <!-- <div class="imgdesign">
+        <div class="mainimg">
+            <img src="./img/img1.png" alt="" id="mainimg">
+            <img src="./img/layer.png" alt="" id="layer">
+        </div>
+    </div> -->
+    <a href="https://www.instagram.com/luvpixell/"><img src="./img/instagram.png" alt="" class="fixed"></a>
+
+ 
+
+<main id="card">
+        <a href="Age Calculate.html">
+            <div class="c-5 size">
+            <p>Age Calculate <br>with unique design 
+            </p>
+        </div></a>
+        <a href="index.html"><div class="c-3 size">
+            <p>Love Calculate <br>with unique design 
+            </p>
+        </div></a>
+        <a href="ReverseName.html"><div class="c-4 size">
+            <p>Reverse Your Name <br>with unique design</p>
+        </div></a>
+        <a href=""><div class="c-1 size">
+            <p>Marriage time calculation <br>with unique design </p><br>
+        </div></a>
+        <a href="Relationship.html"><div class="c-2 size">
+            <p>Relationship days Calculate 
+                <br>
+            with unique design 
+            </p>
+        </div></a>
+        <a href="printMultipleLine.html"><div class="c-6 size">
+            <p>Print same text multiple  line</p>
+        </div></a>
+</main>
+<section id="more" >
+    <form>
+        <button>view more icons</button>
+    </form>
+    <hr>
+    <div class="tool">
+        <h2>A powerful tool with a simple interface</h2>
+        <p>Design, Build, Test, and Publish all from the same place.</p>
+    </div>
+
+</section>
+
+<div class="ageCalculate" >
+    <div class="design" >
+        <div class="left">
+            <h1>Calculate your days</h1> 
+            <p >Name &nbsp;  &nbsp; :<span id="printnames">  Shaban Rajput</span></p>
+            <p >DOB &nbsp;&nbsp; :  <span id="putdates"> 02/05/2005</span></p>
+            <p>Years &nbsp;&nbsp;&nbsp; :&nbsp;<span id="years">20</span></p>
+            <p>Total Month &nbsp; : &nbsp;<span id="months">  240</span></p>
+            <p>Total Days &nbsp;&nbsp;: &nbsp;<span id="days"> 7300</span></p>
+            <p>Total Hours &nbsp;&nbsp;: &nbsp;<span id="hourss">171887</span></p>
+            <p>Total Minutes &nbsp;: &nbsp;<span id="mins"> 10313224</span></p>
+            <p>Total Secound : &nbsp; <span id="seconds">618793415</span></p>
+            <p id="webname">www.luvpixell.com</p>
+            <img src="./img/heartpixel.png" alt="websitelogo">
+
+        </div>
+        <div class="circle">
+            <div class="cir">A</div>
+            <div class="cir">G</div>
+            <div class="cir">E</div>
+        </div>
+        <div class="right">
+            <img src="./img/3D Illustration WFH Character.jpeg" alt="" id="getpics">
+        </div>
+    </div>
+</div>
+<div class="ageCalculate" >
+    <div id="display"></div>
+    </div>
+<div id="canvasContainer"></div>
+
+<button id="Download">Download</button>
+<div id="collaborate">
+    <h1>Collaborate us</h1>
+    <p>Please upload your <strong>instagram</strong> AND <strong>mention</strong> & <strong>collaborate</strong> us</p>
+    <p>our official page <em><a href="https://www.instagram.com/luvpixell/">@luvpixell</a></em></p>
+</div>
+<footer>
+    <p>&COPY; 2024 luvpixell</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script src="AgeConvert.js"></script>
+
+<script src="menu.js"></script>
+<!-- <script src="ageCalculate.js"></script> -->
+</body>
+</html>
